@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="socket.io/socket.io.js"></script>
+    <script src="./chat.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+
+
+</head>
+
+<body>
+    <h1>Hello</h1>
+    <div>
+        <div id="login">
+            <h3>Name ??</h3>
+            <input type="text" id="txtName">
+            <input type="button" value="Ok" id="btnOk">
+        </div>
+        <div id="chat">
+            <div id="chat-user">
+                <div id="boxTitle">
+                    <b>Users Online</b>
+                </div>
+                <div id="boxContent">
+                </div>
+            </div>
+            <div id="chat-content">
+                <div id="userInfo">
+                    <div id="hello">
+                        <h3>Hello <span id="currentUser"></span></h3>
+                        <input type="button" id="btnLogout" value="Logout">
+                    </div>
+                </div>
+                <div id="listMessages">
+
+                </div>
+                <div id="inputMessages">
+                    <input type="text" id="txtMessages" placeholder="...">
+                    <input type="button" value="Send" id="btnMessages">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+</html>

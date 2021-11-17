@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="socket.io/socket.io.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+    <!-- <script>
+        const socket = io("http://localhost:4000");
+        socket.on("Server-sent-data", function(data) {
+            $("#show-data").append(data + "</br>");
+        });
+
+        $(document).ready(function() {
+            console.log("done");
+            $("#data").click(function() {
+                alert("click");
+                socket.emit("Client-sent-data", "Hello");
+            });
+            // alert("Done");
+        });
+    </script> -->
+
+</head>
+
+<body>
+    <h1>Hello</h1>
+    <a href="./chat">Chat</a>
+    <!-- <div id="data">Send data</div>
+    <p id="show-data"></p> -->
+</body>
+
+
+</html>

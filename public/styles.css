@@ -1,0 +1,55 @@
+body {
+    background-color: #c4c4c4;
+}
+
+#login {
+    text-align: center;
+    background-color: #faa918;
+    padding: 10px;
+}
+
+#chat {
+    display: flex;
+}
+
+#chat-user {
+    width: 30%;
+    text-align: center;
+    background-color: #faa918;
+    padding: 10px;
+}
+
+#boxContent {
+    border: solid;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#chat-content {
+    width: 70%;
+    background-color: #1876DB;
+    padding: 10px;
+    text-align: center;
+}
+
+#hello {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#listMessages {
+    min-height: 300px;
+}
+
+#inputMessages {
+    display: flex;
+    padding: 10px;
+    border: solid 0.3px #c6c6c6;
+    background: white;
+    border-radius: 10px;
+}
+
+#txtMessages {
+    width: 100%;
+}
